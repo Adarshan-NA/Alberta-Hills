@@ -1,0 +1,425 @@
+.DayVisit {
+  /* margin-top: 30em; */
+  position: relative;
+  /* padding: 2em; */
+  margin-left: 2em;
+}
+
+.DayVisit-title{
+  font-size: 3.5rem;
+  font-family: 'Gontserrat-Medium';
+  color: rgb(69,70,71);
+  
+}
+.DayVisit-subtitle{
+  font-size: 1.5rem;
+  font-family: 'Gontserrat-Light';
+  color:rgb(69,70,71);
+}
+
+.DayVisit-color{
+  /* position: relative; */
+  margin-left: auto;
+  height: 85vh;
+  width: 60em;
+  background: linear-gradient(180deg, rgb(222,232,239), rgb(240,240,237));
+  /* margin-top: 8em; */
+}
+
+.DayVisit-image{
+  position: relative;
+  /* top:-57em; */
+  background-size: cover;
+  /* height: 50vh; */
+  /* width:50em; */
+  background-image: url("../DayVisit.jpeg");
+}
+
+.DayVisit-Card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* top:-93em; */
+  margin-left: auto;
+  margin-right: 7em;
+  background-color: #454647;
+  width:30em;
+}
+
+.DayVisitCard-img{
+  position: absolute;
+  background-size:cover;
+  background-position: -10em;
+  background-image: url("../DayVisit_Card.jpg");
+  /* height: 50vh; */
+  width: 23em;
+  margin: 3.5em;
+}
+
+.DayVisit-button_white{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: #54A4B8;
+  background-color: white;
+  text-decoration: none;
+  font-family: 'Gontserrat-Light';
+}
+
+.DayVisit-button_blue{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #54A4B8;
+  font-family: 'Gontserrat-Light';
+}
+
+.DayVisit-BlueLagoon {
+  font-family: 'Gontserrat-Medium';
+}
+.DayVisit-Discover{
+  font-family: 'Gontserrat-Light';
+}
+.DayVisit-Price{
+  font-family: 'Gontserrat-Light';
+}
+
+.DayVisit-TextColor{
+  color: white;
+  margin-left:1em;
+}
+.DayVisit-RetreatSpa{
+  font-family: 'Gontserrat-Medium';
+}
+.DayVisit-RetreatSpaPrice{
+  font-family: 'Gontserrat-Light';
+}
+.DayVisit-Luxurious{
+  font-family: 'Gontserrat-Light';
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+   .DayVisit {
+       margin-top: 9em;
+       /* padding: 3em; */
+   }
+
+   .DayVisit-title {
+       font-size: 3rem;
+       width: 12em;
+   }
+
+   .DayVisit-subtitle {
+       font-size: 1.25rem;
+       width: 12em;
+   }
+
+   .DayVisit-color {
+       height: 86vh;
+       width: 60%;
+       margin-top: -36em;
+   }
+
+   .DayVisit-image {
+      height: 35vh;
+      width:100%;
+      top:2em;
+      max-width: 100%;
+
+   }
+
+   .DayVisit-Card {
+       max-width: 100%;
+       width: 63%;
+       top:-2em;
+       margin-left: 28%;
+       height: 85vh;
+   }
+
+   .DayVisitCard-img{
+    max-height: 100%;
+    width: 80%;
+    height: 35vh;
+    background-size:cover;
+    background-position: -4em;
+    margin: 10%;
+   }
+
+   .DayVisit-group{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    margin-left:2em;
+    height: 70vh;
+  }
+  
+  .DayVisit-BlueLagoon{
+    margin-top:2em;
+    font-size: 2rem;
+  }
+  .DayVisit-BlueLagoonPrice{
+    margin-top: 0.5em;
+    font-size: 0.7rem;
+  }
+  .DayVisit-Discover{
+    width:90%;
+    /* margin-top: 0.5em; */
+    font-size: 1rem;
+  }
+  .Button-Flex{
+    display: flex;
+    text-decoration: none !important;
+    list-style: none;
+    gap: 2em;
+    margin-top:1em;
+    margin-left: 0.7em;
+  }
+  
+  .button_white{
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: #54A4B8;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  .button_blue{
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #54A4B8;
+  }
+
+  .DayVisit-TextColor{
+    margin-top: 20em;
+  }
+
+  .DayVisit-RetreatSpa{
+    font-size: 1.7rem;
+  }
+  .DayVisit-RetreatSpaPrice{
+    font-size: 0.7rem;
+    margin-top: 0.5em;
+  }
+  .DayVisit-Luxurious{
+    font-size: 1rem;
+    margin-top: 1em;
+  }
+
+}
+
+@media(min-width:768px) and (max-width:1023px){
+  .DayVisit {
+    margin-top: 19em;
+    /* padding: 3em; */
+}
+
+.DayVisit-title {
+    font-size: 3.25rem;
+    width: 12em;
+}
+
+.DayVisit-subtitle {
+    font-size: 1.5rem;
+    width: 15em;
+}
+
+.DayVisit-color {
+    height: 100vh;
+    width: 60%;
+    margin-top: -50em;
+}
+
+.DayVisit-image {
+   height: 65vh;
+   width:100%;
+   top:2em;
+   max-width: 100%;
+
+}
+
+.DayVisit-Card {
+    max-width: 100%;
+    width: 63%;
+    top:-2em;
+    margin-left: 28%;
+    height: 95vh;
+}
+
+.DayVisitCard-img{
+ max-height: 100%;
+ width: 80%;
+ height: 40vh;
+ background-size:cover;
+ background-position: -4em;
+ margin: 10%;
+}
+
+.DayVisit-group{
+  display: flex;
+  flex-direction: column;
+  width:45%;
+  margin-left:2em;
+  height: 90vh;
+}
+
+.DayVisit-BlueLagoon{
+  margin-top:2em;
+  font-size: 2.25rem;
+}
+.DayVisit-BlueLagoonPrice{
+  margin-top: 0.5em;
+  font-size: 1rem;
+}
+.DayVisit-Discover{
+  width:90%;
+  margin-top:1em;
+  font-size: 1.25rem;
+}
+.Button-Flex{
+  display: flex;
+  text-decoration: none !important;
+  list-style: none;
+  gap: 2em;
+  margin-top:1em;
+  margin-left:2.5em;
+}
+
+.button_white{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: #54A4B8;
+  background-color: white;
+  text-decoration: none;
+}
+
+.button_blue{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #54A4B8;
+}
+.DayVisit-TextColor{
+  margin-top: 23em;
+}
+
+.DayVisit-RetreatSpa{
+  font-size: 2rem;
+}
+.DayVisit-RetreatSpaPrice{
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+}
+.DayVisit-Luxurious{
+  font-size: 1.3rem;
+  margin-top: 1em;
+}
+}
+
+@media (min-width: 1024px) {
+  .DayVisit {
+    margin-top: 34%;
+    /* padding: 3em; */
+}
+
+.DayVisit-title {
+    font-size: 3.5rem;
+    width: 12em;
+}
+
+.DayVisit-subtitle {
+    font-size: 1.75rem;
+    width: 18em;
+}
+
+.DayVisit-color {
+    height: 125vh;
+    width: 60%;
+    margin-top: -65em;
+}
+
+.DayVisit-image {
+   height: 95vh;
+   width:100%;
+   top:2em;
+   max-width: 100%;
+}
+
+.DayVisit-Card {
+    max-width: 100%;
+    width: 63%;
+    top:-2em;
+    margin-left: 28%;
+    height: 115vh;
+}
+
+.DayVisitCard-img{
+ max-height: 100%;
+ width: 80%;
+ height: 48vh;
+ background-size:cover;
+ background-position: -2em;
+ margin: 10%;
+}
+.DayVisit-group{
+  display: flex;
+  flex-direction: column;
+  width:45%;
+  margin-left:2em;
+  height: 100vh;
+}
+
+.DayVisit-BlueLagoon{
+  margin-top:2em;
+  font-size: 2.5rem;
+}
+.DayVisit-BlueLagoonPrice{
+  margin-top: 0.5em;
+  font-size: 1.2rem;
+}
+.DayVisit-Discover{
+  width:90%;
+  font-size: 1.5rem;
+  margin-top:1em;
+}
+.Button-Flex{
+  display: flex;
+  text-decoration: none !important;
+  list-style: none;
+  gap: 2em;
+  margin-top:1em;
+  margin-left:5em
+}
+
+.button_white{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: #54A4B8;
+  background-color: white;
+  text-decoration: none;
+}
+
+.button_blue{
+  border: 2px solid #54A4B8;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #54A4B8;
+}
+
+.DayVisit-TextColor{
+  margin-top: 38em;
+}
+
+.DayVisit-RetreatSpa{
+  font-size: 2.5rem;
+}
+.DayVisit-RetreatSpaPrice{
+  font-size: 1.2rem;
+  margin-top: 0.5em;
+}
+.DayVisit-Luxurious{
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+}

@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+  }
+  
+  .navWhite {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gontserrat-Light';
+    align-items: center;
+    padding: 1rem;
+    position:absolute;
+    top: 0;
+    color: white;
+    background: none;
+    width: 100%;
+    text-decoration: none;
+    /* background: rgba(0, 0, 0, 0.5); Transparent black background */
+    z-index: 1;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* text-decoration: none; */
+    margin-left: 2rem;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    color: #0077b6; 
+  }
+  
+  .nav a {
+    text-decoration: none !important;
+    color: #000000;
+  }
+  
+  /* button {
+  
+  } */
+  .button_white{
+    display: block;
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: #54A4B8;
+    background-color: white;
+  }
+  
+  .button_blue{
+    display: block;
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #54A4B8;
+  }
+  
+  /* .button_top {
+    display: block;
+    border: 2px solid #000000;
+    border-radius:  0.75em;
+    padding: 0.5em 1em;
+    background: #e8e8e8;;
+    color: #000000;
+    transition: transform 0.1s ease;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none !important;
+  } */
+  
+  button:hover .button_top {
+    transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    transform: translateY(0);
+  }
+  
+  .hero {
+    background-image: url("../Brand_Hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* height: 60vh; */
+    /* width: 80%; */
+    left:30em;
+  }
+  
+  .section-title{
+    font-family: 'Gontserrat-Medium';
+    color:rgb(69,70,71);
+  }
+  .section-subtitle{
+    font-family: 'Gontserrat-Light';
+    color:rgb(69,70,71);
+  }
+  
+  .overlay {
+    position: absolute;
+    color: black;
+    top: 10em;
+    left: 5%;
+    z-index: 10;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+  
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        padding: 1em;  
+    }
+  
+    .logo {
+        font-size: 1.25rem;
+        /* margin-left: 2em; */
+        margin-left: 1em;
+    }
+  
+    .navLinks {
+        flex-direction: row;
+        gap: 1.3rem;
+        list-style: none;
+        margin: 0 0;
+        /* font-size: 0.5rem; */
+    }
+  
+    .navItem {
+        margin: 0 0;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+  
+    .hero {
+        height: 70vh;
+        width: 70%;
+        left:30%;
+    }
+  
+    .overlay {
+        top: 15em;
+        left: 2em;
+        width: 50%;
+    }
+  
+    .button_top{
+      padding: 0.5em 0.5em;
+    }
+  
+    .section-title{
+      font-size: 3rem;
+    }
+  
+    .section-subtitle{
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      z-index: 10;
+      padding: 1em;  
+  }
+  
+  .logo {
+      font-size: 1.50rem;
+      /* margin-left: 2em; */
+      margin-left: 1em;
+  }
+  
+  .navLinks {
+      flex-direction: row;
+      gap: 1.3rem;
+      list-style: none;
+      margin: 0 0;
+      /* font-size: 0.5rem; */
+  
+  }
+  
+  .navItem {
+      margin: 0 0;
+      font-size: 0.8rem;
+      text-align: center;
+  }
+  
+  .hero {
+      height: 85vh;
+      width: 70%;
+      left:30%;
+  }
+  
+  .overlay {
+      top: 15em;
+      left: 2em;
+      width: 50%;
+  }
+  .button_top{
+    padding: 0.5em 0.5em;
+  }
+  
+  .section-title{
+    font-size: 4.5rem;
+  }
+  .section-subtitle{
+    font-size: 1.5rem;
+  }
+  }
+  
+  @media (min-width: 1024px) {
+  
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        z-index: 10;
+        padding: 1em;
+    }
+  
+    .logo {
+        font-size: 2rem;
+        margin-left: 1em;
+  
+    }
+  
+    .navLinks {
+      flex-direction: row;
+      gap: 1.3rem;
+      list-style: none;
+      margin: 0 0;
+  }
+  
+  .navItem {
+    margin: 0 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .button_top{
+    padding: 0.5em 0.5em;
+  }
+  
+  .hero {
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+        width: 70%;
+        left:30%;
+    }
+  
+    .overlay {
+        top: 15em;
+        left: 2em;
+        width: 50%;
+    }
+    .section-title{
+      font-size: 6rem;
+    }
+    .section-subtitle{
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  
+  /* 
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      font-family: Gontserrat-Light;
+      align-items: center;
+      padding: 1rem;
+      position: absolute;
+      background: none;
+      position: sticky;
+      top: 0;
+      padding:1rem;
+    }
+  
+  .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 2rem;
+  
+    }
+  
+    .navLinks{
+      display: flex;
+      padding-top: 1rem;
+      list-style: none;
+      text-decoration: none;
+      align-items:center ;
+  
+    }
+  
+    .nav-links a:hover {
+      color: #0077b6; 
+    }
+  
+    .navItem {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      font-size:1.2rem;
+  
+    }
+  
+    nav a{
+          text-decoration: none !important; 
+          color: #000000;      
+    }
+    
+  button {
+      --button_radius: 0.75em;
+      --button_color: #e8e8e8;
+      --button_outline_color: #000000;
+      font-size: 5px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      border-radius: var(--button_radius);
+      background: var(--button_outline_color);
+    }
+    
+    .button_top {
+      display: block;
+      box-sizing: border-box;
+      border: 2px solid var(--button_outline_color);
+      border-radius: var(--button_radius);
+      padding: 0.5em 0.5em;
+      background: var(--button_color);
+      color: var(--button_outline_color);
+      transform: translateY(-0.2em);
+      transition: transform 0.1s ease;
+    }
+    
+    button:hover .button_top {
+      transform: translateY(-0.33em);
+    }
+    
+    button:active .button_top {
+      transform: translateY(0);
+    }
+    
+    .hero {
+      background-image: url("../Brand_Hero.jpeg");
+      background-size:cover;
+      background-position:center;
+      height: 90vh;
+      width: 80%;
+      position: relative;
+      left:30em;
+    }
+    .section-title{
+      font-size: 3.5rem;
+      font-family: 'Gontserrat-Medium';
+      color: rgb(69,70,71);
+    }
+    .section-subtitle{
+      font-size: 1.5rem;
+      font-family: 'Gontserrat-Light';
+      color:rgb(69,70,71);
+    }
+    .overlay {
+      position: absolute;
+      color: black;     
+      top: 15em; 
+      margin-left: 5em;
+      left: 0;
+      right: 0;
+      z-index: 10; 
+    }
+  
+     */

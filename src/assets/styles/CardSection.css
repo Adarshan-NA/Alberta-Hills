@@ -1,0 +1,188 @@
+.image-slider {
+  position: absolute; 
+  top: 2em; 
+  left: 0;
+  right: 0;
+  z-index: 10; 
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.slider-image {
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  height:30vh;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.slider-image-title{
+  text-decoration: none;
+  color: #454647;
+  font-family: 'Gontserrat-Medium';
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-section {
+  position: relative;
+  /* padding: 2rem; */
+  height: 35em;
+  background-color: white;
+  top: 50px;
+  margin: 2rem auto;
+}
+
+.Card-title {
+  color: #454647;
+}
+
+.Card-subtitle {
+  color: #454647;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black !important;
+}
+
+.grid-color {
+  margin: 1rem auto;
+  width: 90%;
+  height: 60vh;
+  background: linear-gradient(180deg, rgb(252,252,251), rgb(225, 228, 230));
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+  .grid-color{
+    width:70%;
+    height:65vh;
+    margin-left: 0;
+    margin-top: 5em;
+  }
+  .slider-image {
+      height: 20vh;
+  }
+  .slider-image-title{
+    text-decoration: none;
+    font-family: 'Gontserrat-Medium';
+    font-size: 1em;
+  }
+  .image-slider {
+    position: absolute; 
+    top: 10em; 
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-section {
+    margin-left: 2em;
+    position: relative;
+  }
+
+  .Card-title {
+      font-size: 1.9rem;
+  }
+
+  .Card-subtitle {
+      font-size: 1rem;
+      margin-top: 1em;
+  }
+
+}
+@media(min-width:768px) and (max-width:1023px)
+{
+  .grid-color{
+    width:70%;
+    height:75vh;
+    margin-left: 0;
+    margin-top: 3em;
+  }
+  .slider-image {
+      height: 25vh;
+  }
+  .slider-image-title{
+    text-decoration: none;
+    font-family: 'Gontserrat-Medium';
+    font-size: 1.2em;
+  }
+  .image-slider {
+    position: absolute; 
+    top: 15em; 
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-section {
+      padding: 1rem;
+      position: relative;
+  }
+
+  .Card-title {
+      /* margin-top: 2em; */
+      font-size: 2.1rem;
+      margin-left: 1em;
+  }
+
+  .Card-subtitle {
+      font-size: 1.2rem;
+      margin-left: 1.8em;
+      margin-top: 1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-color{
+    width:70%;
+    height:85vh;
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  .slider-image {
+      height: 35vh;
+  }
+  .slider-image-title{
+    text-decoration: none;
+    font-family: 'Gontserrat-Medium';
+    font-size: 1.5em;
+  }
+  .image-slider {
+    position: absolute; 
+    top: 15em; 
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card-section {
+      padding: 1rem;
+      position: relative;
+  }
+
+  .Card-title {
+      /* margin-top: 2em; */
+      font-size: 2.6rem;
+      margin-left: 1.8em;
+  }
+
+  .Card-subtitle {
+      font-size: 1.7rem;
+      margin-left: 2.7em;
+      margin-top: 1em;
+  }
+}

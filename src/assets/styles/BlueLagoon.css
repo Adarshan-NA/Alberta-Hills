@@ -1,0 +1,76 @@
+.BlueLagoon-Image{
+    background-image: url("../BlueLagoon1.jpeg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    /* position: absolute; */
+}
+/* .navrelative{
+    position: relative;
+} */
+
+.BlueLagoon-Title{
+    font-family: 'Gontserrat-Bold';
+
+}
+.BlueLagoon-Subtitle{
+    font-family: 'Gontserrat-Light';
+}
+.BlueLagoon-BookingColor{
+    background-color: #EAEDEF;
+}
+
+
+
+@media (max-width: 767px) {
+    .BlueLagoon-Image{
+        height: 50vh;
+    }
+    .BlueLagoon{
+        margin-left: 2.5em;
+    }
+    .BlueLagoon-Title{
+        font-size: 3rem;
+        margin-top: 1em;
+    }
+    .BlueLagoon-Subtitle{
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .BlueLagoon-Image{
+        height: 60vh;
+    }
+    .BlueLagoon{
+        margin-left: 2.5em;
+    }
+    .BlueLagoon-Title{
+        font-size: 3.5rem;
+        margin-top: 1em;
+    }
+    .BlueLagoon-Subtitle{
+        font-size: 1.5rem;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .BlueLagoon-Image{
+        height: 70vh;
+    }
+    .BlueLagoon{
+        margin-left: 2.5em;
+    }
+    .BlueLagoon-Title{
+        font-size: 4rem;
+        margin-top: 1em;
+    }
+    .BlueLagoon-Subtitle{
+        font-size: 2rem;
+        margin-top: 1em;
+    }
+
+}

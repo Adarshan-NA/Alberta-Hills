@@ -1,0 +1,120 @@
+.booking-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background: #f9f9f9;
+    padding: 16px;
+    /* border-radius: 8px; */
+    max-width: 100%;
+    font-family: 'Gontserrat-Light';
+    position: relative;
+    margin:3em 2em;
+  }
+  
+  .guest-picker,
+  .date-picker {
+    position: absolute;
+    top: 60px;
+    /* left: 0; */
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .date-picker{
+    margin: 3em 40%;
+    width: 20em;
+  }
+
+  .date-picker input{
+    width:15em;
+    text-align: center;
+  }
+  
+  .guest-picker {
+    width: 20em;
+    margin-top:3em;
+
+    /* margin-left: none; */
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    padding-bottom: 1em;
+    /* margin: 1em; */
+    /* gap: 3em; */
+  }
+  
+  .counter button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    margin-left: 2em;
+    margin-right:2em;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background: #e0e0e0;
+  }
+  
+  .counter span {
+    min-width: 100px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    /* border-left: 1px solid #ddd; */
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  
+  .info span:first-child {
+    color: #666;
+    font-size: 15px;
+  }
+  
+  .info input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    
+  }
+  
+  .check-btn {
+    width: 20%;
+    padding: 10px;
+    background: #54A4B8;
+    color: white;
+    border: none;
+    /* border-radius: 4px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .check-btn:hover {
+    background: #4793b2;
+  }
+  

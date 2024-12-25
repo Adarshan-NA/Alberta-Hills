@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Gontserrat-Bold'; /* Name your font */
+  src: url('./../fonts/Gontserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gontserrat-Light'; /* Name your font */
+    src: url('./../fonts/Gontserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gontserrat-Medium'; /* Name your font */
+    src: url('./../fonts/Gontserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+ 
+  
