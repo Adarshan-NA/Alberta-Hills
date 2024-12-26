@@ -16,9 +16,35 @@
 .BlueLagoon-Subtitle{
     font-family: 'Gontserrat-Light';
 }
-.BlueLagoon-BookingColor{
-    background-color: #EAEDEF;
+.BlueLagoon-Container{
+    position: relative;
 }
+.BlueLagoon-Color{
+    margin-left: auto;
+    background: linear-gradient(180deg, rgb(222,232,239), rgb(240,240,237));
+}   
+.BlueLagoon-Wonder{
+    position:absolute;
+    z-index: 1;
+    top: 0;
+}
+.BlueLagoon-Wonder_Title{
+    font-family: 'Gontserrat-Medium';
+}
+.BlueLagoon-Wonder_Subtitle{
+    font-family: 'Gontserrat-Light';
+}
+.BlueLagoon-Wonder_Image_Left{
+    background: url("../BlueLagoon_Wonder_Left.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.BlueLagoon-Wonder_Image_Right{
+    background: url("../BlueLagoon_Wonder_Right.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
@@ -37,6 +63,38 @@
         font-size: 1rem;
         margin-top: 1em;
     }
+    .BlueLagoon-Color{
+        width:70%;
+        height: 50vh;
+        margin-top: 8em;
+        z-index: 2;
+    }
+    .BlueLagoon-Container{
+        margin: 2em;
+    }
+    .BlueLagoon-Wonder{
+        margin-top: -5em;
+    }
+    .BlueLagoon-Wonder_Title{
+        width:70%;
+        font-size: 1.8rem;
+    }
+    .BlueLagoon-Wonder_Subtitle{
+        width:60%;
+        font-size: 0.8rem;
+    }
+    .BlueLagoon-Wonder_Image_Left{
+        width: 50%;
+        height: 30vh;
+    }
+    .BlueLagoon-Wonder_Image_Right{
+        width: 40%;
+        height: 50vh;
+        margin-left: auto;
+        margin-top: -21em;
+    }   
+
+
 
 }
 
@@ -55,6 +113,38 @@
         font-size: 1.5rem;
         margin-top: 1em;
     }
+    .BlueLagoon-Color{
+        width:70%;
+        height: 70vh;
+        margin-top: 8em;
+        z-index: 2;
+    }
+    .BlueLagoon-Container{
+        margin: 2em;
+    }
+    .BlueLagoon-Wonder{
+        margin-top: -2em;
+    }
+    .BlueLagoon-Wonder_Title{
+        width:70%;
+        font-size: 2rem;
+    }
+    .BlueLagoon-Wonder_Subtitle{
+        width:60%;
+        font-size: 1rem;
+    }
+    .BlueLagoon-Wonder_Image_Left{
+        width: 55%;
+        height: 35vh;
+        margin-top: 3em;
+    }
+    .BlueLagoon-Wonder_Image_Right{
+        width: 40%;
+        height: 65vh;
+        margin-left: auto;
+        margin-top: -25em;
+    }   
+
 }
 
 @media (min-width: 1024px) {
@@ -72,5 +162,36 @@
         font-size: 2rem;
         margin-top: 1em;
     }
+    .BlueLagoon-Color{
+        width:70%;
+        height: 70vh;
+        margin-top: 13em;
+        z-index: 2;
+    }
+    .BlueLagoon-Container{
+        margin: 2em;
+    }
+    .BlueLagoon-Wonder{
+        margin-top: -5em;
+    }
+    .BlueLagoon-Wonder_Title{
+        width:70%;
+        font-size: 2.5rem;
+    }
+    .BlueLagoon-Wonder_Subtitle{
+        width:60%;
+        font-size: 1.3rem;
+    }
+    .BlueLagoon-Wonder_Image_Left{
+        width: 55%;
+        height: 45vh;
+        margin-top: 3em;
+    }
+    .BlueLagoon-Wonder_Image_Right{
+        width: 40%;
+        height: 75vh;
+        margin-left: auto;
+        margin-top: -33em;
+    }   
 
 }

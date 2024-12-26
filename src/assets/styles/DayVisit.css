@@ -58,7 +58,7 @@
 
 .DayVisit-button_white{
   border: 2px solid #54A4B8;
-  padding: 0.5em 1em;
+  /* padding: 0.5em 1em; */
   color: #54A4B8;
   background-color: white;
   text-decoration: none;
@@ -67,7 +67,7 @@
 
 .DayVisit-button_blue{
   border: 2px solid #54A4B8;
-  padding: 0.5em 1em;
+  /* padding: 0.5em 1em; */
   color: white;
   background-color: #54A4B8;
   font-family: 'Gontserrat-Light';
@@ -175,23 +175,25 @@
     margin-left: 0.7em;
   }
   
-  .button_white{
+  .DayVisit-button_white{
     border: 2px solid #54A4B8;
     padding: 0.5em 1em;
     color: #54A4B8;
     background-color: white;
     text-decoration: none;
+    width: 100%;
   }
   
-  .button_blue{
+  .DayVisit-button_blue{
     border: 2px solid #54A4B8;
     padding: 0.5em 1em;
     color: white;
     background-color: #54A4B8;
+    width: 100%;
   }
 
   .DayVisit-TextColor{
-    margin-top: 20em;
+    margin-top: 22em;
   }
 
   .DayVisit-RetreatSpa{
@@ -285,22 +287,24 @@
   margin-left:2.5em;
 }
 
-.button_white{
+.DayVisit-button_white{
   border: 2px solid #54A4B8;
   padding: 0.5em 1em;
   color: #54A4B8;
   background-color: white;
   text-decoration: none;
+  width: 100%;
 }
 
-.button_blue{
+.DayVisit-button_blue{
   border: 2px solid #54A4B8;
   padding: 0.5em 1em;
   color: white;
   background-color: #54A4B8;
+  width: 100%;
 }
 .DayVisit-TextColor{
-  margin-top: 23em;
+  margin-top: 25em;
 }
 
 .DayVisit-RetreatSpa{
@@ -335,7 +339,7 @@
 .DayVisit-color {
     height: 125vh;
     width: 60%;
-    margin-top: -65em;
+    margin-top: -60em;
 }
 
 .DayVisit-image {
@@ -385,29 +389,32 @@
 .Button-Flex{
   display: flex;
   text-decoration: none !important;
-  list-style: none;
+  list-style:none;
   gap: 2em;
   margin-top:1em;
-  margin-left:5em
+  margin-left: 15%;
+  /* align-items: center; */
 }
 
-.button_white{
+.DayVisit-button_white{
   border: 2px solid #54A4B8;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   color: #54A4B8;
   background-color: white;
   text-decoration: none;
+  width: 100%;
 }
 
-.button_blue{
+.DayVisit-button_blue{
   border: 2px solid #54A4B8;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   color: white;
   background-color: #54A4B8;
+  width: 100%;
 }
 
 .DayVisit-TextColor{
-  margin-top: 38em;
+  margin-top: 35em;
 }
 
 .DayVisit-RetreatSpa{
