@@ -4,6 +4,10 @@ import '../assets/styles/CardSection.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import BlueLagoon from '../assets/BlueLagoon.jpeg';
+import RetreatHotel from '../assets/RetreatHotel.jpeg';
+import Spa from '../assets/Spa.jpeg';
+import Restaurant from '../assets/Restaurant.jpeg';
 
 
 function CardSection(){
@@ -17,10 +21,10 @@ function CardSection(){
   };
   
   const cards = [
-    {id:1,link:"/BlueLagoon" , title: "Blue Lagoon", img: "../src/assets/BlueLagoon.webp" },
-    {id:2,link:"/RetreatHotel" , title: "Retreat Hotel", img: "../src/assets/RetreatHotel.webp" },
-    {id:3,link:"/Spas&Wellness" , title: "Spas & Wellness", img: "../src/assets/Spa.jpg" },
-    {id:4,link:"/Restaurants" , title: "Restaurants", img: "../src/assets/Restaurant.jpg" },
+    {id:1,link:"/BlueLagoon" , title: "Blue Lagoon", img: BlueLagoon },
+    {id:2,link:"/RetreatHotel" , title: "Retreat Hotel", img: RetreatHotel },
+    {id:3,link:"/Spas&Wellness" , title: "Spas & Wellness", img: Spa },
+    {id:4,link:"/Restaurants" , title: "Restaurants", img: Restaurant },
     
     // Add more cards as needed
   ];
