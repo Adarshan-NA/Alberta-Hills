@@ -21,8 +21,7 @@ function BlueLagoon() {
       </div>
       <BookingForm />
       <div className="BlueLagoon-Container">
-      <div className="BlueLagoon-Color">
-      </div>  
+      <div className="BlueLagoon-Color"></div>  
       <div className="BlueLagoon-Wonder">
             <h2 className="BlueLagoon-Wonder_Title"> Alberta's wonder of the world</h2>
             <p className="BlueLagoon-Wonder_Subtitle">Named one of 25 wonders of the world by National Geographic in 2012, the Blue Lagoon was honored for its unique geothermal seawater. Found nowhere else on earth, this renowned resource is rich in silica, algae, and minerals—the elements that give the lagoon its skin-nourishing powers.</p>

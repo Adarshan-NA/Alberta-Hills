@@ -1,0 +1,211 @@
+.RetreatHotel-BackgroundColor{
+    background-color: #454647;
+    height:100vh;
+}
+.RetreatHotel-Image{
+    background-image: url("../RetreatHotelHeroImage.jpeg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    height: 70vh;
+    /* position: absolute; */
+}
+.RetreatHotel-Title{
+    font-family: 'Gontserrat-Bold';
+    color: white;
+
+}
+.RetreatHotel-Subtitle{
+    font-family: 'Gontserrat-Light';
+    color:white
+}
+
+.RetreatHotel-Container{
+    background-color: #454647;
+    position: relative;
+    /* height:100vh; */
+    /* width:max-content; */
+}
+.RetreatHotel-Color{
+    margin-left: auto;
+    background: linear-gradient(180deg, rgb(81,85,91), rgb(143,140,139));
+}   
+.RetreatHotel-landmark{
+    position:absolute;
+    z-index: 1;
+    top: 0;
+}
+.RetreatHotel-landmark_Title{
+    color: white;
+    font-family: 'Gontserrat-Medium';
+}
+.RetreatHotel-landmark_Subtitle{
+    color: white;
+    font-family: 'Gontserrat-Light';
+}
+.RetreatHotel-landmark_Image_Left{
+    background: url("../RetreatHotel_Landmark_Left.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.RetreatHotel-landmark_Image_Right{
+    background: url("../RetreatHotel_Landmark_Right.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .RetreatHotel-Image{
+        height: 50vh;
+    }
+    .RetreatHotel{
+        margin-left: 2.5em;
+    }
+    .RetreatHotel-Title{
+        font-size: 3rem;
+        margin-top: 1em;
+    }
+    .RetreatHotel-Subtitle{
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+    .RetreatHotel-Color{
+        width:70%;
+        height: 50vh;
+        z-index: 2;
+    }
+    .RetreatHotel-Container{
+        padding: 2em;
+        background-color: #454647;
+    }
+    .RetreatHotel-landmark{
+        padding-top: -5em;
+    }
+    .RetreatHotel-landmark_Title{
+        width:70%;
+        font-size: 1.8rem;
+    }
+    .RetreatHotel-landmark_Subtitle{
+        width:60%;
+        font-size: 0.8rem;
+    }
+    .RetreatHotel-landmark_Image_Left{
+        width: 50%;
+        height: 30vh;
+    }
+    .RetreatHotel-landmark_Image_Right{
+        width: 40%;
+        height: 50vh;
+        margin-left: auto;
+        margin-top: -21em;
+    }   
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .RetreatHotel-Image{
+        height: 60vh;
+    }
+    .RetreatHotel{
+        background-color: #454647;
+        padding-left: 2.5em;
+        height:60vh;
+    }
+    .RetreatHotel-Title{
+        font-size: 3.5rem;
+        margin-top: 1em;
+    }
+    .RetreatHotel-Subtitle{
+        font-size: 1.5rem;
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+    .RetreatHotel-Color{
+        width:70%;
+        height: 70vh;
+        z-index: 2;
+    }
+    .RetreatHotel-Container{
+        padding: 2em;
+        background-color: #454647;
+    }
+    .RetreatHotel-landmark{
+        padding-top: -5em;
+    }
+    .RetreatHotel-landmark_Title{
+        width:70%;
+        font-size: 2rem;
+    }
+    .RetreatHotel-landmark_Subtitle{
+        width:60%;
+        font-size: 1rem;
+    }
+    .RetreatHotel-landmark_Image_Left{
+        width: 55%;
+        height: 35vh;
+        margin-top: 3em;
+    }
+    .RetreatHotel-landmark_Image_Right{
+        width: 40%;
+        height: 65vh;
+        margin-left: auto;
+        margin-top: -25em;
+    }   
+
+}
+
+@media (min-width: 1024px) {
+    .RetreatHotel-Image{
+        height: 70vh;
+    }
+    .RetreatHotel{
+        background-color: #454647;
+        padding-left: 2.5em;
+        height:60vh;
+    }
+    .RetreatHotel-Title{
+        font-size: 4rem;
+        margin-top: 1em;
+    }
+    .RetreatHotel-Subtitle{
+        font-size: 2rem;
+        margin-top: 1em;
+        padding-bottom: 1em;
+    }
+    .RetreatHotel-Color{
+        width:70%;
+        height: 100vh;
+        z-index: 2;
+    }
+    .RetreatHotel-Container{
+        padding: 2em;
+        background-color: #454647;
+    }
+    .RetreatHotel-landmark{
+        padding-top: -5em;
+    }
+    .RetreatHotel-landmark_Title{
+        /* margin-top: 2em; */
+        width:50%;
+        font-size: 2.5rem;
+    }
+    .RetreatHotel-landmark_Subtitle{
+        padding-top: 1em;
+        width:50%;
+        font-size: 1.3rem;
+    }
+    .RetreatHotel-landmark_Image_Left{
+        width: 55%;
+        height: 45vh;
+        margin-top: 3em;
+    }
+    .RetreatHotel-landmark_Image_Right{
+        width: 40%;
+        height: 75vh;
+        margin-left: auto;
+        margin-top: -33em;
+    }   
+
+}

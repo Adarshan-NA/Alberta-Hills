@@ -9,7 +9,7 @@ function NavBarBlack() {
     <nav className="nav">
       <div className="logo"><a href="/">Alberta Hills</a></div>
       <ul className="navLinks">
-        <li className="navItem"><Link to="/DayVisit">Day Visit</Link></li>
+        <li className="navItem"><Link to="/BlueLagoon">Day Visit</Link></li>
         <li className="navItem"><Link to="/Accomodation">Accomodation</Link></li>
         <li className="navItem"><Link to="/Dining">Dining</Link></li>
         <li className="navItem"><Link to="/Skincare">Skincare Shop</Link></li>
