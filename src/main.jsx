@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import BlueLagoon from './pages/BlueLagoon.jsx';
 import RetreatHotel from './pages/RetreatHotel.jsx';
 import Spa from './pages/Spa.jsx';
+import Restaurants from './pages/Restaurants.jsx';
 
 // import './index.css'
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/" element={<HomePage />} />
     <Route path="/BlueLagoon" element={<BlueLagoon />} />
     <Route path="/RetreatHotel" element={<RetreatHotel />} />
+    <Route path="/Restaurants" element={<Restaurants />} />
     <Route path="/Spa" element={<Spa />} />
     {/* <Route path="Accomodation" element={<Accomodation />} />
     <Route path="Dining" element={<Dining />} />  
