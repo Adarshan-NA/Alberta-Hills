@@ -1,7 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
 import NavBarBlack from './NavBarBlack';
-import BookingForm from './BookingForm';
 import RetreatBookingForm from './RetreatBookingForm';
 import '../assets/styles/RetreatHotel.css';
 

@@ -85,7 +85,7 @@
 
 .DayVisit-TextColor{
   color: white;
-  margin-left:1em;
+  margin:1em;
 }
 .DayVisit-RetreatSpa{
   font-family: 'Gontserrat-Medium';
@@ -195,7 +195,7 @@
   }
 
   .DayVisit-TextColor{
-    margin-top: 22em;
+    margin-top: 130%;
   }
 
   .DayVisit-RetreatSpa{
@@ -308,7 +308,8 @@
   width: 100%;
 }
 .DayVisit-TextColor{
-  margin-top: 25em;
+  /* margin-top: 25em; */
+  margin-top: 125%;
 }
 
 .DayVisit-RetreatSpa{
@@ -420,7 +421,8 @@
 }
 
 .DayVisit-TextColor{
-  margin-top: 35em;
+  /* margin-top: 35em; */
+  margin-top: 115%;
 }
 
 .DayVisit-RetreatSpa{

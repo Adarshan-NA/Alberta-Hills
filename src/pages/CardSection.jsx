@@ -23,7 +23,7 @@ function CardSection(){
   const cards = [
     {id:1,link:"/BlueLagoon" , title: "Blue Lagoon", img: BlueLagoon },
     {id:2,link:"/RetreatHotel" , title: "Retreat Hotel", img: RetreatHotel },
-    {id:3,link:"/Spas&Wellness" , title: "Spas & Wellness", img: Spa },
+    {id:3,link:"/Spa" , title: "Spas & Wellness", img: Spa },
     {id:4,link:"/Restaurants" , title: "Restaurants", img: Restaurant },
     
     // Add more cards as needed
