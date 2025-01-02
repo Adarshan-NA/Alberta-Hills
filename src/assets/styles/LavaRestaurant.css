@@ -1,0 +1,345 @@
+.LavaText{
+    position: absolute;
+    height: 80vh;
+    width:40%;
+}
+
+.LavaImage{
+    position: relative;
+    margin-left: auto;
+    height: 80vh;
+    width:60%;
+}
+
+.LavaTitle{
+    font-family: 'Gontserrat-Bold';
+}
+
+.LavaSubTitle{
+    font-family: 'Gontserrat-Light';
+}
+.LavaButton_blue{
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #54A4B8;
+    width: 70%;
+    text-decoration: none;
+}
+
+.LavaColor{
+    background: linear-gradient(180deg, rgb(222,232,239), rgb(240,240,237));
+    height: 80vh;
+    width:50%;
+}
+.LavaLeftImage{
+    background-image: url('../LavaHeroLeftImage.jpg');
+}
+.LavaRightImage{
+    background-image: url('../LavaHeroRightImage.jpg');
+}
+
+
+.LavaSettingTitle{
+    font-family: 'Gontserrat-Medium';
+}
+.LavaSettingSubtitle{
+    font-family: 'Gontserrat-Light';
+}
+.LavaSettingImages{
+    position: relative;
+}
+.LavaSettingLeftImage{
+    position: relative;
+    background-image: url("../RetreatHotel_Landmark_Left.jpeg");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+.LavaSettingRightImage{
+    background-image: url("../LavaSettingImage.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media (max-width: 767px) {
+    .LavaText{
+        height: 70vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 6em;
+    }
+    
+    .LavaImage{
+        position: relative;
+        margin-left: auto;
+        height: 70vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .LavaTitle{
+        font-size: 2.5rem;
+    }
+    
+    .LavaSubTitle{
+        font-size: 1rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .LavaButton_blue{
+        width: 70%;
+    }
+    
+    .Lava_Images{
+        position: absolute;
+        height: 80vh;
+        width:100%;
+        top: 0;
+    }
+    .LavaColor{
+        height: 80vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .LavaLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 70vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .LavaRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 70vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .LavaSetting{
+        width: 100%;
+        height:80vh
+    }
+    .LavaSettingText{
+        margin-top: 15em;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .LavaSettingTitle{
+       font-size: 2rem;
+    }
+    .LavaSettingSubtitle{
+        padding-top: 1em;
+        font-size: 1rem;
+    }
+    .LavaSettingImages{
+        height:85vh;
+    }
+    .LavaSettingLeftImage{     
+        width: 50%;
+        height: 50vh;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    .LavaSettingRightImage{
+        width: 60%;
+        height: 50vh;
+        margin-top: -15em;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .LavaText{
+        height: 100vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 9em;
+    }
+    
+    .LavaImage{
+        position: relative;
+        margin-left: auto;
+        height: 100vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .LavaTitle{
+        font-size: 3rem;
+    }
+    
+    .LavaSubTitle{
+        font-size: 1.2rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .LavaButton_blue{
+        width: 60%;
+    }
+    
+    .Lava_Images{
+        position: absolute;
+        height: 100vh;
+        width:100%;
+        top: 0;
+    }
+    .LavaColor{
+        height: 90vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .LavaLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 80vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .LavaRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .LavaSetting{
+        width: 100%;
+        height:80vh
+    }
+    .LavaSettingText{
+        margin-top: 10em;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .LavaSettingTitle{
+       font-size: 2.5rem;
+    }
+    .LavaSettingSubtitle{
+        padding-top: 1em;
+        font-size: 1.3rem;
+    }
+    .LavaSettingImages{
+        height:85vh;
+    }
+    .LavaSettingLeftImage{     
+        width: 50%;
+        height: 60vh;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    .LavaSettingRightImage{
+        width: 60%;
+        height: 60vh;
+        margin-top: -15em;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .LavaText{
+        height: 80vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 11em;
+    }
+    
+    .LavaImage{
+        position: relative;
+        margin-left: auto;
+        height: 100vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .LavaTitle{
+        font-size: 4rem;
+    }
+    
+    .LavaSubTitle{
+        font-size: 1.5rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .LavaButton_blue{
+        width: 50%;
+    }
+    .Lava_Images{
+        position: absolute;
+        height: 100vh;
+        width:100%;
+        top: 0;
+    }
+    .LavaColor{
+        height: 90vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .LavaLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 80vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .LavaRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .LavaSetting{
+        width: 100%;
+        height:80vh
+    }
+    .LavaSettingText{
+        margin-top: 10em;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .LavaSettingTitle{
+       font-size: 3.2rem;
+    }
+    .LavaSettingSubtitle{
+        padding-top: 1em;
+        font-size: 1.5rem;
+    }
+    .LavaSettingImages{
+        height:85vh;
+    }
+    .LavaSettingLeftImage{     
+        width: 50%;
+        height: 60vh;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    .LavaSettingRightImage{
+        width: 60%;
+        height: 60vh;
+        margin-top: -15em;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+}

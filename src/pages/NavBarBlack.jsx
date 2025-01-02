@@ -11,7 +11,7 @@ function NavBarBlack() {
       <ul className="navLinks">
         <li className="navItem"><Link to="/BlueLagoon">Day Visit</Link></li>
         <li className="navItem"><Link to="/RetreatHotel">Accomodation</Link></li>
-        <li className="navItem"><Link to="/Dining">Dining</Link></li>
+        <li className="navItem"><Link to="/Restaurants">Dining</Link></li>
         <li className="navItem"><Link to="/Spa">Spa</Link></li>
         <li className="navItem"><Link to="/MyBooking"><button className="button_white">My Booking</button></Link></li>
         <li className="navItem"><Link to="/BookNow"><button className="button_blue">Book now</button></Link></li>

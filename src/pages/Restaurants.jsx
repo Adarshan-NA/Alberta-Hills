@@ -1,31 +1,38 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NavBarBlack from './NavBarBlack';
 import '../assets/styles/Restaurants.css';
-import BlueLagoon from '../assets/BlueLagoon.jpeg';
-import RetreatHotel from '../assets/RetreatHotel.jpeg';
-import Spa from '../assets/Spa.jpeg';
+import RestaurantCard from "./RestaurantCards";
+import LavaRestaurant from '../assets/LavaRestaurant.jpg';
+import BlueCafe from '../assets/BlueCafe.jpg';
+import MossRestaurant from '../assets/MossRestaurant.jpg';
 
 function Restaurants(){
-
-    const Restaurants = [
-        {id:1,title: "Lava Restaurant", img: BlueLagoon },
-        {id:2,title: "Moss Restaurant", img: RetreatHotel },
-        {id:3,title: "Spa Restaurant", img: Spa },
-      ];
-
     return(
         <div>
-            <NavBarBlack />
-            <div className="Restaurants-Flex">
-                <div className="Restaurants-List">
-                    {Restaurants.map((Hotels) =>(
-                        <div key={Hotels.id}>
-                            <Link className="Restaurants-Link" to={Hotels.link}></Link>
-                            <img src={Hotels.img} alt={Hotels.title} className="Restaurant-Image" />
-
-                        </div>
-                    ))}
-                </div>
+            <div><NavBarBlack /></div>
+            <div className="restaurant-container">
+                <Link to="/LavaRestaurant" className="RestaurantLink">
+                <RestaurantCard
+                    image={LavaRestaurant}
+                    title="Lava Restaurant"
+                    description="Culinary classics. Volcanic architecture."
+                />
+                </Link> 
+                <Link to="/BlueLagoon" className="RestaurantLink">
+                <RestaurantCard
+                    image={BlueCafe}
+                    title="Blue Café"
+                    description="Fresh snacks. Refreshing beverages."
+                />
+                </Link>
+                <Link to="/BlueLagoon" className="RestaurantLink">
+                <RestaurantCard
+                    image={MossRestaurant}
+                    title="Moss Restaurant"
+                    description="Michelin-starred cuisine. An unforgettable experience."
+                />
+                </Link>
             </div>
         </div>
     );
