@@ -1,3 +1,8 @@
+.LavaBody{
+background-color: #FBFBFB;
+}
+
+
 .LavaText{
     position: absolute;
     height: 80vh;
@@ -61,6 +66,15 @@
     background-size: cover;
     background-position: center;
     
+}
+.Alacartemenu{
+    font-family: 'Gontserrat-Medium';
+}
+.Starters{
+    font-family: 'Gontserrat-Medium';
+}
+.MenuStarters{
+    background-color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
@@ -140,7 +154,7 @@
         font-size: 1rem;
     }
     .LavaSettingImages{
-        height:85vh;
+        height:65vh;
     }
     .LavaSettingLeftImage{     
         width: 50%;
@@ -155,6 +169,71 @@
         margin-left:auto;
         margin-right: 2em;
     }
+    .MenuAlacarte{
+        width:90%;
+        height: auto;
+        margin:2em;
+        margin-top: 13em;
+    }
+    .Alacartemenu{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+   
+    .Starters{
+        text-align: center;
+        font-size: 1.6rem;
+        /* padding-bottom: 1em; */
+    }
+    .StarterMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3em;
+        height: 580px; /* Set a specific height for the container */
+        align-items: stretch; /* Ensures children stretch to the full height */
+    }
+    .MainDishMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8em;
+        height: 580px; 
+        align-items: stretch;
+    }
+    .DessertMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8em;
+        height: 480px; 
+        align-items: stretch;
+    }
+
+    .MenuLeftImage{
+        width:20%;
+        height:100%;    
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;    
+    }
+    .MenuStarters{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+        height: Auto;
+        flex-grow: 1; /* Makes this container take up the remaining space */
+        /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);  */
+        box-shadow: 
+        0px 4px 10px rgba(0, 0, 0, 0.25), /* Outer shadow */
+        inset 0px 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+    }
+    .MenuRightImage{
+        width:20%;
+        height:100%;
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    
+    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 1023px) { 
@@ -245,10 +324,77 @@
     .LavaSettingRightImage{
         width: 60%;
         height: 60vh;
-        margin-top: -15em;
+        margin-top: -20em;
         margin-left:auto;
         margin-right: 2em;
     }
+
+    .MenuAlacarte{
+        width:90%;
+        height: auto;
+        margin:2em;
+        margin-top: 20em;
+    }
+    .Alacartemenu{
+        text-align: center;
+        font-size: 2.8rem;
+    }
+   
+    .Starters{
+        text-align: center;
+        font-size: 2rem;
+        /* padding-bottom: 1em; */
+    }
+    .StarterMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3em;
+        height: 750px; /* Set a specific height for the container */
+        align-items: stretch; /* Ensures children stretch to the full height */
+    }
+    .MainDishMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10em;
+        height: 750px; 
+        align-items: stretch;
+    }
+    .DessertMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10em;
+        height: 630px; 
+        align-items: stretch;
+    }
+
+    .MenuLeftImage{
+        width:20%;
+        height:100%;    
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;    
+    }
+    .MenuStarters{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+        height: Auto;
+        flex-grow: 1; /* Makes this container take up the remaining space */
+        /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);  */
+        box-shadow: 
+        0px 4px 10px rgba(0, 0, 0, 0.25), /* Outer shadow */
+        inset 0px 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+    }
+    .MenuRightImage{
+        width:20%;
+        height:100%;
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    
+    }
+    
+
 }
 
 @media (min-width: 1024px) {
@@ -338,8 +484,74 @@
     .LavaSettingRightImage{
         width: 60%;
         height: 60vh;
-        margin-top: -15em;
+        margin-top: -20em;
         margin-left:auto;
         margin-right: 2em;
     }
+    .MenuAlacarte{
+        width:90%;
+        height: auto;
+        margin:2em;
+        margin-top: 25em;
+    }
+    .Alacartemenu{
+        text-align: center;
+        font-size: 3rem;
+    }
+   
+    .Starters{
+        text-align: center;
+        font-size: 2.4rem;
+        /* padding-bottom: 1em; */
+    }
+    .StarterMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3em;
+        height: 850px; /* Set a specific height for the container */
+        align-items: stretch; /* Ensures children stretch to the full height */
+    }
+    .MainDishMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10em;
+        height: 850px; 
+        align-items: stretch;
+    }
+    .DessertMenuImage{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10em;
+        height: 750px; 
+        align-items: stretch;
+    }
+
+
+    .MenuLeftImage{
+        width:20%;
+        height:100%;    
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;    
+    }
+    .MenuStarters{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+        height: Auto;
+        flex-grow: 1; /* Makes this container take up the remaining space */
+        /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);  */
+        box-shadow: 
+        0px 4px 10px rgba(0, 0, 0, 0.25), /* Outer shadow */
+        inset 0px 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+    }
+    .MenuRightImage{
+        width:20%;
+        height:100%;
+        object-fit: cover;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    
+    }
+    
 }

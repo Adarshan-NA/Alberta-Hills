@@ -1,0 +1,46 @@
+.RestaurantMenuProps{
+    text-align: center;
+}
+.RestaurantMenuProps h3
+    {   
+    font-family: 'Gontserrat-Medium';
+    }
+.RestaurantMenuProps p{
+    font-family: 'Gontserrat-Light';
+}
+
+@media (max-width: 767px) {
+    .RestaurantMenuProps h3
+    {   
+        font-size: 1rem;
+        margin-top: 1em;
+    }
+    .RestaurantMenuProps p{
+        font-size: 1rem;
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .RestaurantMenuProps h3
+    {   
+        font-size: 1.3rem;
+        margin-top: 1.2em;
+    }
+    .RestaurantMenuProps p{
+        font-size: 1.3rem;
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .RestaurantMenuProps h3
+    {   
+        font-size: 1.5rem;
+        margin-top: 1.4em;
+    }
+    .RestaurantMenuProps p{
+        font-size: 1.5rem;
+        margin-bottom: auto;
+    }
+}
