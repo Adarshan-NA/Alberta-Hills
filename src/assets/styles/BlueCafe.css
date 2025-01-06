@@ -1,0 +1,459 @@
+.BlueCafeText{
+    position: absolute;
+    height: 80vh;
+    width:40%;
+}
+
+.BlueCafeImage{
+    position: relative;
+    margin-left: auto;
+    height: 80vh;
+    width:60%;
+}
+
+.BlueCafeTitle{
+    font-family: 'Gontserrat-Bold';
+    text-align: center;
+}
+
+.BlueCafeSubTitle{
+    font-family: 'Gontserrat-Light';
+    text-align: center;
+}
+.BlueCafeButton_blue{
+    border: 2px solid #54A4B8;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #54A4B8;
+    width: 70%;
+    text-decoration: none;
+}
+
+.BlueCafeColor{
+    background: linear-gradient(180deg, rgb(222,232,239), rgb(240,240,237));
+    height: 80vh;
+    width:50%;
+}
+.BlueCafeLeftImage{
+    background-image: url('../BlueCafeHeroLeftImage.jpg');
+}
+.BlueCafeRightImage{
+    background-image: url('../BlueCafeHeroRightImage.jpg');
+}
+.BlueCafeNourishmentImage{
+    background-image: url("../BlueCafeNourishmentImage.jpeg");
+    /* position: relative; */
+    background-position: center;
+    background-size: cover;
+}
+.BlueCafeBreakfastImage{
+    background-image: url("../BlueCafeBreakfastImage.jpeg");
+    /* position: relative; */
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 767px) {
+    .BlueCafeText{
+        height: 50vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 12em;
+    }
+    
+    .BlueCafeImage{
+        position: relative;
+        margin-left: auto;
+        height: 70vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .BlueCafeTitle{
+        font-size: 2.5rem;
+    }
+    
+    .BlueCafeSubTitle{
+        font-size: 1rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .BlueCafeButton_blue{
+        width: 70%;
+    }
+    
+    .BlueCafe_Images{
+        position: absolute;
+        height: 80vh;
+        width:100%;
+        top: 0;
+    }
+    .BlueCafeColor{
+        height: 80vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .BlueCafeLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 70vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .BlueCafeRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 70vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .BlueCafeTimings{
+        width:100%;
+        height:80vh;
+        margin-top: 10em;
+    }
+    .BlueCafeNourishment{
+        position: absolute;
+        width:100%;
+        height:40vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeNourishmentImage{
+        position: relative;
+        width:100%;
+        height:40vh;
+        margin-left:auto;
+        margin-right: 2em;
+        /* margin-top: 8em; */
+    }
+    .BlueCafeNourishment h2{
+        font-family: 'Gontserrat-Medium';
+        font-size: 2rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeNourishment p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+
+    .BlueCafeBreakfast{
+        width:100%;
+        height:80vh;
+        margin-top: 10em;
+    }
+    .BlueCafeBreakfastBox{
+        position: absolute;
+        width:100%;
+        height:40vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeBreakfastImage{
+        position: relative;
+        width:100%;
+        height:40vh;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+    .BlueCafeBreakfastBox h2{
+        font-family: 'Gontserrat-Medium';
+        font-size: 2rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeBreakfastBox p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .BlueCafeText{
+        height: 100vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 15em;
+    }
+    
+    .BlueCafeImage{
+        position: relative;
+        margin-left: auto;
+        height: 100vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .BlueCafeTitle{
+        font-size: 3rem;
+    }
+    
+    .BlueCafeSubTitle{
+        font-size: 1.2rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .BlueCafeButton_blue{
+        width: 60%;
+    }
+    
+    .BlueCafe_Images{
+        position: absolute;
+        height: 100vh;
+        width:100%;
+        top: 0;
+    }
+    .BlueCafeColor{
+        height: 90vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .BlueCafeLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 80vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .BlueCafeRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .BlueCafeTimings{
+        width:100%;
+        height:100vh;
+        margin-top: 10em;
+    }
+    .BlueCafeNourishment{
+        position: absolute;
+        width:100%;
+        height:50vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeNourishmentImage{
+        position: relative;
+        width:100%;
+        height:50vh;
+        margin-left:auto;
+        margin-right: 2em;
+        /* margin-top: 8em; */
+    }
+    .BlueCafeNourishment h2{
+        font-family: 'Gontserrat-Medium';
+        font-size: 2.3rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2.5em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeNourishment p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1.2rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+
+    .BlueCafeBreakfast{
+        width:100%;
+        height:100vh;
+        margin-top: 10em;
+    }
+    .BlueCafeBreakfastBox{
+        position: absolute;
+        width:100%;
+        height:50vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeBreakfastImage{
+        position: relative;
+        width:100%;
+        height:50vh;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+    .BlueCafeBreakfastBox h2{
+        font-family: 'Gontserrat-Medium';
+        font-size: 2.3rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2.5em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeBreakfastBox p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1.2rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .BlueCafeText{
+        height: 80vh;
+        width:40%;
+        padding: 2em;
+        margin-top: 18em;
+    }
+    
+    .BlueCafeImage{
+        position: relative;
+        margin-left: auto;
+        height: 100vh;
+        width:60%;
+        margin-top: 6em;
+        z-index: 0;
+    }
+    
+    .BlueCafeTitle{
+        font-size: 4rem;
+    }
+    
+    .BlueCafeSubTitle{
+        font-size: 1.5rem;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .BlueCafeButton_blue{
+        width: 50%;
+    }
+    .BlueCafe_Images{
+        position: absolute;
+        height: 100vh;
+        width:100%;
+        top: 0;
+    }
+    .BlueCafeColor{
+        height: 90vh;
+        width:50%;
+        margin-left: 30%;
+    }
+    .BlueCafeLeftImage{
+        position: absolute;
+        width: 50%;
+        height: 80vh;
+        margin-top: 5em;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .BlueCafeRightImage{
+        position: absolute;
+        right:0;
+        width: 50%;
+        height: 80vh;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .BlueCafeTimings{
+        width:100%;
+        height:100vh;
+        margin-top: 10em;
+    }
+    .BlueCafeNourishment{
+        position: absolute;
+        width:100%;
+        height:50vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeNourishmentImage{
+        position: relative;
+        width:100%;
+        height:50vh;
+        margin-left:auto;
+        margin-right: 2em;
+        /* margin-top: 8em; */
+    }
+    .BlueCafeNourishment h2{
+        font-family: 'Gontserrat-Medium';
+        font-size:2.7rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeNourishment p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1.5rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+
+    .BlueCafeBreakfast{
+        width:100%;
+        height:100vh;
+        margin-top: 10em;
+    }
+    .BlueCafeBreakfastBox{
+        position: absolute;
+        width:100%;
+        height:50vh;
+        background-color: #E2E3E4;
+    }
+    .BlueCafeBreakfastImage{
+        position: relative;
+        width:100%;
+        height:50vh;
+        margin-left:auto;
+        margin-right: 2em;
+    }
+    .BlueCafeBreakfastBox h2{
+        font-family: 'Gontserrat-Medium';
+        font-size: 2.7rem;
+        width:80%;
+        margin-left: 1em;
+        margin-top: 2em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+    }
+    .BlueCafeBreakfastBox p{
+        font-family: 'Gontserrat-Light';
+        font-size: 1.5rem;
+        width:92%;
+        margin-left: 2em;
+        margin-top: 0.5em;
+        margin-right: 2em;
+    }
+}

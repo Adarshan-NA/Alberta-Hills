@@ -172,7 +172,9 @@ background-color: #FBFBFB;
     .MenuAlacarte{
         width:90%;
         height: auto;
-        margin:2em;
+        /* margin:2em; */
+        padding-left: 1em;
+        margin-left: 2em;
         margin-top: 13em;
     }
     .Alacartemenu{
@@ -332,7 +334,8 @@ background-color: #FBFBFB;
     .MenuAlacarte{
         width:90%;
         height: auto;
-        margin:2em;
+        padding-left: 2em;
+        margin-left: 2em;
         margin-top: 20em;
     }
     .Alacartemenu{
@@ -491,7 +494,8 @@ background-color: #FBFBFB;
     .MenuAlacarte{
         width:90%;
         height: auto;
-        margin:2em;
+        padding-left: 4em;
+        margin-left: 2em;
         margin-top: 25em;
     }
     .Alacartemenu{

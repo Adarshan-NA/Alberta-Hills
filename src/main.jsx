@@ -9,6 +9,7 @@ import RetreatHotel from './pages/RetreatHotel.jsx';
 import Spa from './pages/Spa.jsx';
 import Restaurants from './pages/Restaurants.jsx';
 import LavaRestaurant from './pages/LavaRestaurant.jsx';
+import BlueCafe from './pages/BlueCafe.jsx';
 
 // import './index.css'
 
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
     <Route path="/Restaurants" element={<Restaurants />} />
     <Route path="/Spa" element={<Spa />} />
     <Route path="/LavaRestaurant" element={<LavaRestaurant />} />
+    <Route path="/BlueCafe" element={<BlueCafe />} />
     {/* <Route path="Accomodation" element={<Accomodation />} />
     <Route path="Dining" element={<Dining />} />  
     <Route path="SkinCare" element={<SkinCare />} /> */}

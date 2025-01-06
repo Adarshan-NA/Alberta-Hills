@@ -19,7 +19,7 @@ function Restaurants(){
                     description="Culinary classics. Volcanic architecture."
                 />
                 </Link> 
-                <Link to="/BlueLagoon" className="RestaurantLink">
+                <Link to="/BlueCafe" className="RestaurantLink">
                 <RestaurantCard
                     image={BlueCafe}
                     title="Blue Café"
