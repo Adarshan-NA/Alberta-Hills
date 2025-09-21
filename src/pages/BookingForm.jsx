@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import '../assets/styles/BookingForm.css';
+import "../assets/styles/BookingForm.css";
 
-function BookingForm () {
+function BookingForm() {
   const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(0);
   const [date, setDate] = useState("");
@@ -64,6 +65,6 @@ function BookingForm () {
       <button className="check-btn">Check availability</button>
     </div>
   );
-};
+}
 
 export default BookingForm;

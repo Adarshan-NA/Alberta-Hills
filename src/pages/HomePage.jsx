@@ -1,14 +1,12 @@
-import React,{ useState } from 'react'
-import {Outlet} from "react-router-dom";
-import NavBarBlack from './NavBarBlack';
-import HeroSection from './HeroSection';
-import CardSection from './CardSection';
-import DayVisit from './DayVisit';
-
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import { Outlet } from "react-router-dom";
+import NavBarBlack from "./NavBarBlack";
+import HeroSection from "./HeroSection";
+import CardSection from "./CardSection";
+import DayVisit from "./DayVisit";
 
 function HomePage() {
-
-
   return (
     <div>
       <NavBarBlack />
@@ -17,7 +15,7 @@ function HomePage() {
       <DayVisit />
       <Outlet />
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

@@ -1,0 +1,95 @@
+.Moss-BackgroundColor{
+    background-color: #454647;
+    height:200vh;
+}
+.MossHeroSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.MossHeroImage{
+    background-image: url('../MossHeroImage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.MossTitle{
+    font-family: 'Gontserrat-Medium';
+}
+.MossSubTitle{
+    font-family: 'Gontserrat-Light';
+}
+
+@media (max-width: 767px) {
+    .MossHeroSection{
+        padding-top: 7em;
+        margin-left: 2em;
+        margin-right: 2em;
+        gap:15px
+    }
+    .MossText{
+        width:80%;
+        text-align: center;
+        padding-top: 8em;
+        color:white;
+    }
+
+
+    .MossHeroImage{
+        height:50vh;
+        width:100%;
+    }
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    .MossHeroSection{
+        padding-top: 7em;
+        margin-left: 2em;
+        margin-right: 2em;
+        gap:15px
+    }
+    .MossText{
+        width:80%;
+        text-align: center;
+        padding-top: 11em;
+        color:white;
+    }
+    .MossTitle{
+        font-size: 2.3rem;
+    }
+    .MossSubTitle{
+        font-size: 1.2rem;
+    }
+    .MossHeroImage{
+        height:60vh;
+        width:100%;
+    }
+}
+
+@media(min-width:1024px){
+    .MossHeroSection{
+        padding-top: 7em;
+        margin-left: 2em;
+        margin-right: 2em;
+        gap:15px
+    }
+    .MossText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:70%;
+        text-align: center;
+        /* padding-top:6em;
+        padding-bottom: 6em; */
+        color:white;
+    }
+    .MossTitle{
+        font-size: 2.6rem;
+    }
+    .MossSubTitle{
+        font-size: 1.5rem;
+    }
+    .MossHeroImage{
+        height:70vh;
+        width:100%;
+    }
+}

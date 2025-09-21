@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import '../assets/styles/RetreatBookingForm.css';
+import "../assets/styles/RetreatBookingForm.css";
 
-function RetreatBookingForm () {
+function RetreatBookingForm() {
   const [rooms, setRooms] = useState(0);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
@@ -12,7 +13,6 @@ function RetreatBookingForm () {
   const handleRoomChange = (value) => {
     if (rooms + value >= 0) setRooms(rooms + value);
   };
-
 
   return (
     <div className="booking-container">
@@ -60,7 +60,7 @@ function RetreatBookingForm () {
         </div>
       )}
 
-    <div
+      <div
         className="summary"
         onClick={() => setshowEndDatePicker(!showEndDatePicker)}
       >
@@ -81,6 +81,6 @@ function RetreatBookingForm () {
       <button className="check-btn">Check availability</button>
     </div>
   );
-};
+}
 
 export default RetreatBookingForm;

@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "../assets/styles/RestaurantCards.css";
 
-function RestaurantCards ({ image, title, description }) {
+function RestaurantCards({ image, title, description }) {
   return (
     <div className="restaurant-card">
       <img src={image} alt={title} className="restaurant-image" />
@@ -9,6 +11,6 @@ function RestaurantCards ({ image, title, description }) {
       <p className="restaurant-description">{description}</p>
     </div>
   );
-};
+}
 
 export default RestaurantCards;
